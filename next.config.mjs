@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  basePath: "/Portfolio", // Change this to match your repository name
+  basePath: process.env.NODE_ENV === "production" ? "/portfolio" : "",
   images: {
-    unoptimized: true, // Required for static exports
+    unoptimized: true,
   },
 };
 
