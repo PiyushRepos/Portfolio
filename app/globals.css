@@ -72,10 +72,14 @@ body {
   }
 }
 
+.colorSchemeDark {
+  color-scheme: dark;
+}
+
 .subtitle {
   @apply text-accent-foreground text-xl font-bold py-1;
 }
 
-.colorSchemeDark {
-  color-scheme: dark;
+.bottom-shadow {
+  @apply shadow-[0_3px_0_rgba(0,0,0,0.2)] hover:shadow-[0_1.75px_0_rgba(0,0,0,0.2)] dark:shadow-[0_3px_0_rgba(255,255,255,0.2)] dark:hover:shadow-[0_1.75px_0_rgba(255,255,255,0.2)];
 }

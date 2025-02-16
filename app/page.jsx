@@ -7,7 +7,7 @@ export default function Home() {
       <Header />
       <div className="mt-5">
         <h2 className="subtitle">Projects</h2>
-        <Tabs defaultValue="fullstack" className="max-w-[400px]">
+        <Tabs defaultValue="fullstack" className="max-w-[400px">
           <TabsList>
             <TabsTrigger value="fullstack">Full Stack</TabsTrigger>
             <TabsTrigger value="frontend">Front-end</TabsTrigger>

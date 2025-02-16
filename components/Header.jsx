@@ -61,13 +61,14 @@ const Header = () => {
       <div className="flex items-start justify-between gap-x-4">
         <div>
           <div className="flex flex-col gap-y-2">
-            <h2 className="lex items-end space-x-2">
+            <h2>
               <span className="text-2xl font-bold text-accent-foreground">
                 Piyush Kumar
-                <span className="text-sm text-accent">,</span>
+                <span className="text-sm text-accent-foreground">,</span>
               </span>
-              <span className="text-sm font-mono font-semibold text-[#bbbbbb]">
-                a student and a curious developer at heart.
+              <br />
+              <span className="ml-0 text-sm font-mono font-semibold text-[#bbbbbb]">
+                A student and a curious developer at heart.
               </span>
             </h2>
             <p className="max-w-md items-center text-pretty font-mono text-xs text-muted-foreground">
@@ -104,7 +105,7 @@ const Header = () => {
                 title={link.name}
                 href={link.link}
                 target="_blank"
-                className={`inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border border-input bg-background shadow-sm  hover:scale-105 hover:bg-accent hover:text-accent-foreground size-8`}
+                className={`bottom-shadow inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border border-input bg-background shadow-sm  hover:scale-105 hover:bg-accent hover:text-accent-foreground size-8`}
               >
                 {link.icon}
               </Link>
