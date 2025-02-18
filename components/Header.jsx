@@ -1,6 +1,5 @@
 import Link from "next/link";
 import React from "react";
-import { ThemeToggle } from "./ThemeToggle";
 
 const socialLinks = [
   {
@@ -111,9 +110,6 @@ const Header = () => {
               </Link>
             ))}
           </div>
-        </div>
-        <div>
-          <ThemeToggle />
         </div>
       </div>
       <div className="mt-4">
